@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <form>
-        <b>Introduce tu nombre: </b><input type="text" name="Nombre: " value="">
+    <form action="http://ncoge.com/phps/formulario.php"> 
+        <fieldset>
+        <legend>Datos personales</legend>
+        <label for="Nombre"> Nombre: </label>
+        <input type="text" name="Nombre: " value="">
+
+        <label for="Apellidos"> Apellidos: </label>
+        <input type="text" name="Apellidos" value="">
+        </fieldset>
         
     </form>
 </body>
-</html> 
+</html>
